@@ -1,0 +1,29 @@
+// Place all the styles related to the questions controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: https://sass-lang.com/
+@import url('https://fonts.googleapis.com/css2?family=Gloria+Hallelujah&display=swap');
+
+body {
+  background-color: aliceblue;
+  height: 100vh;
+}
+
+#container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
+#container h1 {
+  font-family: 'Gloria Hallelujah', cursive;
+  padding-left: 13px;
+  padding-bottom: 20px;
+}
+
+#border {
+  border: 1px solid rgb(124, 221, 228);
+  border-radius: 10px;
+  padding: 100px 50px;
+  box-shadow: 5px 5px #cef0f3;
+}
